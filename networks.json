@@ -3,6 +3,10 @@
     "SybexOracle": {
       "address": "0x60bDf0D28787124591cb400E92482c7AD9C65765",
       "startBlock": 71224956
+    },
+    "SybexAutomatedMarket": {
+      "address": "0xF933BFEdA2083ACAfEB0BA44e3971B1b99c8ce7C",
+      "startBlock": 71744118
     }
   }
 }
