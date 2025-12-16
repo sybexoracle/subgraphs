@@ -8,7 +8,7 @@ dataSources:
     name: SybexOracle
     network: bsc
     source:
-      address: "0xa2E97a955dbFE75c4BEa91c80a6F821654f77b7B"
+      address: "0x60bDf0D28787124591cb400E92482c7AD9C65765"
       abi: SybexOracle
       startBlock: 71224956
     mapping:

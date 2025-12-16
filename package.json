@@ -4,7 +4,7 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ sybex",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ sybex-oracle",
     "create-local": "graph create --node http://103.195.190.218:8020/ sybex",
     "remove-local": "graph remove --node http://103.195.190.218:8020/ sybex",
     "deploy-local": "graph deploy --node http://103.195.190.218:8020/ --ipfs http://103.195.190.218:5001 sybex",
