@@ -1,0 +1,8 @@
+{
+  "bsc": {
+    "TransparentUpgradeableProxy": {
+      "address": "0x60bDf0D28787124591cb400E92482c7AD9C65765",
+      "startBlock": 71743677
+    }
+  }
+}
