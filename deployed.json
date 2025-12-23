@@ -1,0 +1,12 @@
+{
+    "SybexOracleIgnitionModules#SybexOracle": "0xB83861394fDe89356ddC16F9f0735137FDaAc2Ea",
+    "SybexOracleIgnitionModules#TransparentUpgradeableProxy": "0xf89B35d1f16c6B1Aaf1B78EF2385042C76222237",
+    "SybexOracleIgnitionModules#ProxyAdmin": "0x6aFF2b67c5DC90253266d68C86616CB5B7693E03",
+    "SybexResolverIgnitionModules#SybexBinaryResolver": "0xB7F72B7Ed6A6Cfb14355bC544a54A68F966B1EEa",
+    "SybexResolverIgnitionModules#SybexCategoricalResolver": "0x794a2f158B7CFc8337FD6E8Cc13E0Ac16c1F7FBd",
+    "SybexResolverIgnitionModules#SybexNumericalResolver": "0xD17fad8923D575414709f7C946280B24b12858b4",
+    "SybexResolverIgnitionModules#SybexRangeNumericalResolver": "0xbb944464ba251F4DD1cc460f05BFeEC65F0A3F17",
+    "SybexAMMIgnitionModules#SybexAutomatedMarket": "0x49D5A7921829A123896906B0afC81151CF63151E",
+    "SybexAMMIgnitionModules#TransparentUpgradeableProxy": "0x19891A7EA16dEeF1f80E2e7ace7280668B30EA59",
+    "SybexAMMIgnitionModules#ProxyAdmin": "0xf08DfA1578f68eC65c630BbEEfaCB14a083E6698"
+}

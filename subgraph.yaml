@@ -8,9 +8,9 @@ dataSources:
     name: SybexOracle
     network: bsc
     source:
-      address: "0x60bDf0D28787124591cb400E92482c7AD9C65765"
+      address: "0xf89B35d1f16c6B1Aaf1B78EF2385042C76222237"
       abi: SybexOracle
-      startBlock: 71224956
+      startBlock: 71856728
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.9
@@ -52,9 +52,9 @@ dataSources:
     name: SybexAutomatedMarket
     network: bsc
     source:
-      address: "0xF933BFEdA2083ACAfEB0BA44e3971B1b99c8ce7C"
+      address: "0xE5b4ee5D7041c5ecd485E3b393DC3B6Ff045aBa2"
       abi: SybexAutomatedMarket
-      startBlock: 71744118
+      startBlock: 71911180
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.9
