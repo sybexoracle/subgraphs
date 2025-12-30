@@ -98,3 +98,54 @@ dataSources:
         - event: WinningsClaimed(indexed uint256,indexed address,uint256)
           handler: handleWinningsClaimed
       file: ./src/sybex-automated-market.ts
+  - kind: ethereum
+    name: SybexAutomatedMarketV2
+    network: bsc
+    source:
+      address: "0x978BD94E7478e37FaB77264fa1a40C804e9dEf40"
+      abi: SybexAutomatedMarketV2
+      startBlock: 73474208
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.9
+      language: wasm/assemblyscript
+      entities:
+        - SybexAutomatedMarketV2FeesWithdrawn
+        - SybexAutomatedMarketV2Initialized
+        - MarketCanceled
+        - SybexAutomatedMarketV2MarketCreated
+        - SybexAutomatedMarketV2MarketResolved
+        - SybexAutomatedMarketV2OrderPlaced
+        - RefudIssued
+        - SybexAutomatedMarketV2RoleAdminChanged
+        - SybexAutomatedMarketV2RoleGranted
+        - SybexAutomatedMarketV2RoleRevoked
+        - SybexAutomatedMarketV2WinningsClaimed
+      abis:
+        - name: SybexAutomatedMarketV2
+          file: ./abis/SybexAutomatedMarketV2.json
+      eventHandlers:
+        - event: FeesWithdrawn(uint256,address,indexed address)
+          handler: handleFeesWithdrawn
+        - event: Initialized(uint64)
+          handler: handleInitialized
+        - event: MarketCanceled(indexed uint256,address)
+          handler: handleMarketCanceled
+        - event: MarketCreated(indexed uint256,string,uint8,string[],address,indexed
+            address,uint256)
+          handler: handleMarketCreated
+        - event: MarketResolved(indexed uint256,uint256,address)
+          handler: handleMarketResolved
+        - event: OrderPlaced(indexed uint256,indexed address,indexed uint256,uint256,address)
+          handler: handleOrderPlaced
+        - event: RefudIssued(indexed uint256,indexed address,uint256,address)
+          handler: handleRefudIssued
+        - event: RoleAdminChanged(indexed bytes32,indexed bytes32,indexed bytes32)
+          handler: handleRoleAdminChanged
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleRoleGranted
+        - event: RoleRevoked(indexed bytes32,indexed address,indexed address)
+          handler: handleRoleRevoked
+        - event: WinningsClaimed(indexed uint256,indexed address,uint256,address)
+          handler: handleWinningsClaimed
+      file: ./src/sybex-automated-market-v-2.ts

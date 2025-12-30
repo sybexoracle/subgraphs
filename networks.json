@@ -7,6 +7,10 @@
     "SybexAutomatedMarket": {
       "address": "0xE5b4ee5D7041c5ecd485E3b393DC3B6Ff045aBa2",
       "startBlock": 71911180
+    },
+    "SybexAutomatedMarketV2": {
+      "address": "0x978BD94E7478e37FaB77264fa1a40C804e9dEf40",
+      "startBlock": 73474208
     }
   }
 }
